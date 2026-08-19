@@ -18,7 +18,7 @@ st.set_page_config(
 # LOAD SAVED MODEL, FEATURE LIST, AND TUNED THRESHOLD
 # ============================================================
 
-model = joblib.load("fraud_model.pkl")
+model = joblib.load("fraud_model_compressed.pkl")
 feature_cols = joblib.load("feature_cols.pkl")
 best_threshold = joblib.load("best_threshold.pkl")
 
